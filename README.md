@@ -77,20 +77,30 @@ Aplikacja webowa umożliwiająca obliczanie odległości między dwoma punktami 
 geo-distance-calculator/
 ├── backend/
 │   └── calculate-distance.php
-└── frontend/
-    ├── src/
-    │   ├── components/
-    │   │   ├── CoordinateInput.vue
-    │   │   ├── DistanceResult.vue
-    │   │   ├── GeoForm.vue
-    │   │   └── MapView.vue
-    │   ├── services/
-    │   │   └── api.ts
-    │   ├── stores/
-    │   │   └── geo.ts
-    │   └── views/
-    │       └── HomeView.vue
-    └── public/
+├── frontend/
+│   ├── src/
+│   │   ├── assets/
+│   │   │   └── images/
+│   │   │       └── geo-app.png
+│   │   ├── components/
+│   │   │   ├── CoordinateInput.vue
+│   │   │   ├── DistanceResult.vue
+│   │   │   ├── GeoForm.vue
+│   │   │   └── MapView.vue
+│   │   ├── router/
+│   │   │   └── index.ts
+│   │   ├── services/
+│   │   │   └── api.ts
+│   │   ├── stores/
+│   │   │   └── geo.ts
+│   │   ├── types/
+│   │   │   └── geo.ts
+│   │   ├── views/
+│   │   │   └── HomeView.vue
+│   │   ├── App.vue
+│   │   └── main.ts
+│   └── public/
+└── README.md
 ```
 
 ## API 📡
