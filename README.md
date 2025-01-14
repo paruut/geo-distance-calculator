@@ -3,6 +3,8 @@
 
 Aplikacja webowa umożliwiająca obliczanie odległości między dwoma punktami geograficznymi z wizualizacją na mapie.
 
+![Geo App Screenshot](/geo-app.png)
+
 ## Funkcjonalności 🚀
 
 - Obliczanie odległości między dwoma punktami geograficznymi
